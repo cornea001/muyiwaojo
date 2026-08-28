@@ -19,8 +19,8 @@ export default function Home() {
       <Hero />
       <WhyRunning />
       <About />
-      <WhatWeHearing />
       <Priorities />
+      <WhatWeHearing />
       <CommunityConnection />
       <Mission />
       <NewsEvents />
