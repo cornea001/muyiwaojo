@@ -125,13 +125,12 @@ export default function Hero() {
                     </Link>
                   </MagneticButton>
                   <MagneticButton>
-                    <Link
-                      href="?modal=volunteer"
-                      scroll={false}
+                    <a
+                      href="#involved"
                       className="flex justify-center items-center gap-2 bg-gold text-navy px-5 md:px-6 py-3 md:py-3.5 font-display font-bold text-xs md:text-sm tracking-widest hover:bg-white transition-colors duration-300"
                     >
                       <User size={16} /> {t('volunteer_btn')}
-                    </Link>
+                    </a>
                   </MagneticButton>
                   <MagneticButton>
                     <Link

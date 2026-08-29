@@ -54,6 +54,8 @@ export default function RunningPage() {
             <p>{t('p5')}</p>
             <p>{t('p6')}</p>
             <p>{t('p7')}</p>
+            <p>{t('p8')}</p>
+            <p>{t('p9')}</p>
 
             <div className="border-l-4 border-gold pl-6 py-1 my-8">
               <p className="text-navy dark:text-white font-display italic font-bold text-lg sm:text-xl leading-snug transition-colors duration-300">
@@ -61,10 +63,10 @@ export default function RunningPage() {
               </p>
             </div>
 
-            <p>{t('p8')}</p>
-            <p>{t('p9')}</p>
             <p>{t('p10')}</p>
-            <p className="font-semibold text-navy dark:text-white transition-colors duration-300">{t('p11')}</p>
+            <p>{t('p11')}</p>
+            <p>{t('p12')}</p>
+            <p className="font-semibold text-navy dark:text-white transition-colors duration-300">{t('p13')}</p>
           </div>
 
           {/* Footer */}

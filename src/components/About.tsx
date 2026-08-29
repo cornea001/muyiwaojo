@@ -64,11 +64,11 @@ export default function About() {
             <div className="space-y-4 text-navy/70 dark:text-cream/80 text-[15px] leading-relaxed mb-8 transition-colors duration-300">
              <p>{t('p1')}</p>
              <p>{t('p2')}</p>
-             <p>{t('p3')}</p>
-             <p>{t('p4')}</p>
-             {t('p5') && <p>{t('p5')}</p>}
-             {t('p6') && <p>{t('p6')}</p>}
-             {t('p7') && <p>{t('p7')}</p>}
+             <div className="pt-2">
+               <a href="/running" className="inline-flex items-center text-gold font-bold uppercase tracking-widest text-sm hover:text-navy dark:hover:text-white transition-colors duration-300">
+                 {t('read_more')} &rarr;
+               </a>
+             </div>
             </div>
 
             {/* Blockquote */}
