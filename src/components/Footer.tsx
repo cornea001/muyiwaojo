@@ -17,7 +17,7 @@ export default function Footer() {
             "{t('final_msg')}"
           </h3>
           <p className="text-gold font-body font-bold tracking-widest uppercase text-sm relative z-10">
-            — Muyiwa Ojo &middot; Candidate for Ottawa City Council &middot; Ward 22
+            {t('author_attribution')}
           </p>
         </div>
 

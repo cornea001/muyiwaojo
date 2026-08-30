@@ -4,7 +4,7 @@
     "about": "Meet Muyiwa",
     "priorities": "Priorities",
     "community": "Community",
-    "news": "News & Events",
+    "news": "Voting Info",
     "volunteer": "Get Involved",
     "contact": "Contact",
     "donate": "Donate"
@@ -102,7 +102,7 @@
     "p1_action": "What This Means: I will work with City staff and Ottawa Police to implement traffic calming in high-risk areas, advocate for better lighting in our parks, and ensure crosswalks are safer for our children and seniors.",
     "p2_action": "What This Means: I will champion a Ward 22 Youth Advisory Council, establish partnerships with local businesses for mentorship and summer jobs, and advocate for community spaces that support STEM, arts, and leadership programs.",
     "p3_action": "What This Means: I will advocate for better OC Transpo reliability, push for solutions to traffic bottlenecks in our neighbourhoods, and ensure residents have practical commuting options.",
-    "p4_action": "What This Means: I will demand that our ward gets its fair share of infrastructure funding, prioritize new parks and recreational facilities, and advocate for infrastructure and essential service to keep pace with our communities growth, and ensure that essential services are in place before new developments are built."
+    "p4_action": "What This Means: I will demand that our ward gets its fair share of infrastructure funding, prioritize new parks and recreational facilities, and advocate for infrastructure and essential service to keep pace with our communities growth."
   },
   "Community": {
     "eyebrow": "Community Involvement",
@@ -142,7 +142,7 @@
     "link_about": "Meet Muyiwa",
     "link_priorities": "Priorities",
     "link_community": "Community",
-    "link_news": "News & Events",
+    "link_news": "Voting Info",
     "link_volunteer": "Get Involved",
     "link_contact": "Contact",
     "col2_title": "Resources",
@@ -161,7 +161,8 @@
     "final_msg": "Ward 22 deserves a councillor who is present, practical and accountable. This community is our home. Let's build it right, together.",
     "legal": "Municipal Elections Act (Ontario)",
     "auth": "Authorized by the Official Agent for the Muyiwa Ojo Campaign · Ward 22, Ottawa · Municipal Elections Act (Ontario)",
-    "rights": "© 2026 Muyiwa Ojo Campaign · Paid for by Muyiwa Ojo Ward 22 · Authorized by Official Agent"
+    "rights": "© 2026 Muyiwa Ojo Campaign · Paid for by Muyiwa Ojo Ward 22 · Authorized by Official Agent",
+    "author_attribution": "— Muyiwa Ojo · Candidate for Ottawa City Council · Ward 22"
   },
   "About": {
     "eyebrow": "Candidate for Ward 22 Riverside South and Findlay Creek",
@@ -420,7 +421,8 @@
     "r1_n": "Eligible $50 contribution: $25 rebate",
     "r2_n": "Strong individual contribution",
     "r3_n": "Maximum rebate reached",
-    "r4_n": "Maximum allowed contribution"
+    "r4_n": "Maximum allowed contribution",
+    "btn": "DONATE TODAY"
   },
   "WhatWeHearing": {
     "title": "What We're Hearing at the Doors",

@@ -45,7 +45,7 @@ export default function Hero() {
       <Swiper
         speed={1500}
         parallax={true}
-        loop={true}
+        loop={false}
         navigation={{
           nextEl: ".swiper-button-next-custom",
           prevEl: ".swiper-button-prev-custom",

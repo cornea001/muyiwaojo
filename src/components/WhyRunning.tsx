@@ -32,7 +32,7 @@ export default function WhyRunning() {
             transition={{ duration: 0.8 }}
             className="lg:col-span-5 relative"
           >
-            <div className="sticky top-32">
+            <div className="relative lg:sticky lg:top-32">
               <Quote size={48} className="text-gold/30 mb-6" />
               <h3 className="font-display text-lg sm:text-xl lg:text-2xl text-navy dark:text-white leading-relaxed font-bold italic transition-colors duration-300">
                 "{t('quote')}"

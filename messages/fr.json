@@ -4,7 +4,7 @@
     "about": "Rencontrez Muyiwa",
     "priorities": "Priorités",
     "community": "Communauté",
-    "news": "Actualités et événements",
+    "news": "Info sur le vote",
     "volunteer": "S'impliquer",
     "contact": "Contact",
     "donate": "Faire un don"
@@ -102,7 +102,7 @@
     "p1_action": "Ce que cela signifie : Je travaillerai avec le personnel de la Ville et la police d'Ottawa pour mettre en œuvre des mesures de modération de la circulation dans les zones à haut risque, je plaiderai pour un meilleur éclairage dans nos parcs et je veillerai à ce que les passages pour piétons soient plus sûrs pour nos enfants et nos aînés.",
     "p2_action": "Ce que cela signifie : Je soutiendrai un Conseil consultatif des jeunes du quartier 22, j'établirai des partenariats avec des entreprises locales pour le mentorat et les emplois d'été, et je plaiderai pour des espaces communautaires qui soutiennent les programmes STIM, artistiques et de leadership.",
     "p3_action": "Ce que cela signifie : Je plaiderai pour une meilleure fiabilité d'OC Transpo, je proposerai des solutions aux goulots d'étranglement de la circulation dans nos quartiers et je veillerai à ce que les résidents disposent d'options de transport pratiques.",
-    "p4_action": "What This Means: I will demand that our ward gets its fair share of infrastructure funding, prioritize new parks and recreational facilities, and advocate for infrastructure and essential service to keep pace with our communities growth, and ensure that essential services are in place before new developments are built."
+    "p4_action": "Ce que cela signifie : J'exigerai que notre quartier reçoive sa juste part du financement des infrastructures, je prioriserai les nouveaux parcs et installations récréatives, et je plaiderai pour que les infrastructures et les services essentiels suivent le rythme de la croissance de nos communautés, et je m'assurerai que les services essentiels sont en place avant la construction de nouveaux développements."
   },
   "Community": {
     "eyebrow": "Implication communautaire",
@@ -142,7 +142,7 @@
     "link_about": "Rencontrez Muyiwa",
     "link_priorities": "Priorités",
     "link_community": "Communauté",
-    "link_news": "Actualités",
+    "link_news": "Info sur le vote",
     "link_volunteer": "S'impliquer",
     "link_contact": "Contact",
     "col2_title": "Ressources",
@@ -161,13 +161,14 @@
     "final_msg": "Le quartier 22 mérite un conseiller présent, pratique et responsable. Cette communauté est notre foyer. Construisons-la bien, ensemble.",
     "legal": "Loi sur les élections municipales (Ontario)",
     "auth": "Autorisé par l'agent officiel de la campagne de Muyiwa Ojo · Quartier 22, Ottawa · Loi sur les élections municipales (Ontario)",
-    "rights": "© 2026 Campagne Muyiwa Ojo · Payé par Muyiwa Ojo Quartier 22 · Autorisé par l'agent officiel"
+    "rights": "© 2026 Campagne Muyiwa Ojo · Payé par Muyiwa Ojo Quartier 22 · Autorisé par l'agent officiel",
+    "author_attribution": "— Muyiwa Ojo · Candidat au conseil municipal d'Ottawa · Quartier 22"
   },
   "About": {
     "eyebrow": "Candidat pour le quartier 22 Riverside South et Findlay Creek",
     "title_home": "Rencontrez Muyiwa Ojo",
-    "p1": "As a finance professional with an Executive MBA from the Ivey Business School, I understand the importance of responsible planning, informed decision-making and delivering results. But I also know that numbers and spreadsheets never tell the whole story. The people who live here do. That is why I have spent time listening directly to residents across Riverside South and Findlay Creek.",
-    "p2": "Canada gave our family opportunity. Ward 22 gave us home. I am running because I want to help make sure this community continues to grow in a way that works for the families who call it home.",
+    "p1": "En tant que professionnel de la finance titulaire d'un Executive MBA de la Ivey Business School, je comprends l'importance d'une planification responsable, de la prise de décisions éclairées et de l'obtention de résultats. Mais je sais aussi que les chiffres et les feuilles de calcul ne disent jamais tout. Les gens qui vivent ici le font. C'est pourquoi j'ai passé du temps à écouter directement les résidents de Riverside South et de Findlay Creek.",
+    "p2": "Le Canada a offert une opportunité à notre famille. Le quartier 22 nous a offert un foyer. Je me présente parce que je veux contribuer à m'assurer que cette communauté continue de croître d'une manière qui fonctionne pour les familles qui y ont élu domicile.",
     "quote_home": "\"Le Canada a offert des opportunités à notre famille. Le quartier 22 nous a offert un foyer.\"",
     "quote_home_author": "— Muyiwa Ojo, Candidat pour le quartier 22",
     "trait1": "Professionnel en finance — planification d'entreprise et allocation des ressources",
@@ -420,7 +421,8 @@
     "r1_n": "Contribution admissible de 50 $ : remise de 25 $",
     "r2_n": "Forte contribution individuelle",
     "r3_n": "Remise maximale atteinte",
-    "r4_n": "Contribution maximale autorisée"
+    "r4_n": "Contribution maximale autorisée",
+    "btn": "FAIRE UN DON AUJOURD'HUI"
   },
   "WhatWeHearing": {
     "title": "Ce que nous entendons aux portes",
