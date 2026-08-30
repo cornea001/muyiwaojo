@@ -1,20 +1,21 @@
 'use client'
 
 import { useLocale } from 'next-intl'
-import { usePathname } from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
 
 export default function LanguageSwitcher() {
   const locale = useLocale()
   const pathname = usePathname()
+  const router = useRouter()
 
   const handleToggle = () => {
     const nextLocale = locale === 'en' ? 'fr' : 'en'
-    // Swap the locale segment in the URL and do a hard navigation
+    // Swap the locale segment in the URL
     const segments = pathname.split('/')
-    // segments[1] is the locale
     segments[1] = nextLocale
-    const newPath = segments.join('/')
-    window.location.href = newPath
+    const newPath = segments.join('/') + window.location.search + window.location.hash
+    // Use client-side router with scroll: false to preserve position
+    router.replace(newPath, { scroll: false })
   }
 
   return (
