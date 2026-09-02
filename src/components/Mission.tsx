@@ -115,7 +115,7 @@ export default function Mission() {
             <img
               src="/mission-hero.avif"
               alt="Community Progress"
-              className="absolute inset-0 w-full h-full object-cover object-bottom group-hover:scale-105 transition-transform duration-1000"
+              className="absolute inset-0 w-full h-full object-cover object-left group-hover:scale-105 transition-transform duration-1000"
             />
           </motion.div>
 
