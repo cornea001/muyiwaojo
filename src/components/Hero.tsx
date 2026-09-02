@@ -70,7 +70,7 @@ export default function Hero() {
           >
             {/* Parallax Background */}
             <div
-              className={`absolute inset-0 bg-cover ${slide.bgClass || "bg-bottom"}`}
+              className={`absolute inset-0 bg-cover scale-x-[-1] ${slide.bgClass || "bg-bottom"}`}
               style={{ backgroundImage: `url(${slide.bgImage})` }}
             >
               <div className="absolute inset-0 bg-navy/70 mix-blend-multiply" />
