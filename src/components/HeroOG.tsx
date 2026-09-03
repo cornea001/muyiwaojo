@@ -16,7 +16,7 @@ export default function HeroOG() {
       desc: t('desc1'),
       bgImage: "/bg-rally.avif",
       bgClass: "bg-top",
-      portraitImage: "/portrait.avif",
+      portraitImage: "/portrait2.avif",
     },
   ];
 
