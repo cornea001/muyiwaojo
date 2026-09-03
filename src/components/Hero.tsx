@@ -166,7 +166,7 @@ export default function Hero() {
             {/* Portrait — in-flow on mobile, absolute on desktop */}
             {slide.portraitImage && (
               <div
-                className="relative md:absolute md:inset-y-0 md:right-0 md:bottom-16 w-full md:w-auto mt-4 md:mt-0 h-72 sm:h-80 md:h-full z-10 pointer-events-none flex justify-center items-end"
+                className="relative md:absolute md:inset-y-0 md:right-0 md:translate-x-10 xl:translate-x-24 md:bottom-16 w-full md:w-auto mt-4 md:mt-0 h-72 sm:h-80 md:h-full z-10 pointer-events-none flex justify-center items-end"
                 data-swiper-parallax="20%"
               >
                 <motion.img
