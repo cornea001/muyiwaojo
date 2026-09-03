@@ -101,7 +101,7 @@ export default function Mission() {
         </div>
 
         {/* Split Layout: Image & Mission Points */}
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-stretch mb-20">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-20">
           
           {/* Left Side: Image */}
           <motion.div
@@ -109,13 +109,13 @@ export default function Mission() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="relative w-full aspect-[4/3] lg:aspect-auto lg:h-full group overflow-hidden"
+            className="relative w-full aspect-[4/3] lg:aspect-square group overflow-hidden"
           >
             <div className="absolute inset-0 bg-navy/10 group-hover:bg-transparent transition-colors duration-500 z-10 pointer-events-none" />
             <img
               src="/mission-hero.avif"
               alt="Community Progress"
-              className="absolute inset-0 w-full h-full object-cover object-right group-hover:scale-105 transition-transform duration-1000"
+              className="absolute inset-0 w-full h-full object-cover object-[75%_center] group-hover:scale-105 transition-transform duration-1000"
             />
           </motion.div>
 
