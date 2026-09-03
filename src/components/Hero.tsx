@@ -36,7 +36,6 @@ export default function Hero() {
       desc: t('desc2'),
       bgImage: "/community-bg.avif",
       bgClass: "bg-bottom",
-      portraitImage: "/portrait2.avif",
     },
   ];
 
@@ -153,19 +152,21 @@ export default function Hero() {
             </div>
 
             {/* Portrait — in-flow on mobile, absolute on desktop */}
-            <div
-              className="relative md:absolute md:inset-y-0 md:right-0 md:bottom-16 w-full md:w-auto mt-4 md:mt-0 h-72 sm:h-80 md:h-full z-10 pointer-events-none flex justify-center items-end"
-              data-swiper-parallax="20%"
-            >
-              <motion.img
-                initial={{ opacity: 0, x: 60 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 1, delay: 0.3, ease: [0.25, 1, 0.5, 1] }}
-                src={slide.portraitImage}
-                alt="Muyiwa Ojo"
-                className="portrait-img w-full h-full md:w-auto md:h-full max-w-none max-h-full object-cover object-top md:object-contain md:object-right-bottom"
-              />
-            </div>
+            {slide.portraitImage && (
+              <div
+                className="relative md:absolute md:inset-y-0 md:right-0 md:bottom-16 w-full md:w-auto mt-4 md:mt-0 h-72 sm:h-80 md:h-full z-10 pointer-events-none flex justify-center items-end"
+                data-swiper-parallax="20%"
+              >
+                <motion.img
+                  initial={{ opacity: 0, x: 60 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 1, delay: 0.3, ease: [0.25, 1, 0.5, 1] }}
+                  src={slide.portraitImage}
+                  alt="Muyiwa Ojo"
+                  className="portrait-img w-full h-full md:w-auto md:h-full max-w-none max-h-full object-cover object-top md:object-contain md:object-right-bottom"
+                />
+              </div>
+            )}
 
             {/* Bottom padding spacer on mobile to clear the bottom bar */}
             <div className="h-16 md:hidden" />
@@ -195,8 +196,13 @@ export default function Hero() {
           </a>
         </div>
 
-        {/* Bottom Bar */}
+        {/* Bottom Bar Container */}
         <div className="absolute bottom-0 left-0 right-0 z-30 h-14 lg:h-16 border-t border-white/10 bg-navy/60 backdrop-blur-md flex justify-between items-stretch">
+          {/* Pagination Box */}
+          <div className="w-28 lg:w-32 bg-black/40 border-r border-white/10 flex items-center justify-center text-white/50 font-display font-bold text-sm lg:text-lg tracking-widest">
+            <div className="swiper-pagination-custom"></div>
+          </div>
+          {/* Scroll Indicator */}
           <div className="flex-1 flex items-center justify-center">
             <a
               href="#priorities"
@@ -205,6 +211,15 @@ export default function Hero() {
             >
               <ArrowDown size={14} className="text-white animate-bounce" />
             </a>
+          </div>
+          {/* Nav Arrows */}
+          <div className="flex border-l border-white/10">
+            <button className="swiper-button-prev-custom w-14 lg:w-20 border-r border-white/10 flex items-center justify-center text-white/50 hover:text-white hover:bg-white/5 transition-colors">
+              &larr;
+            </button>
+            <button className="swiper-button-next-custom w-14 lg:w-20 flex items-center justify-center text-white/50 hover:text-white hover:bg-white/5 transition-colors">
+              &rarr;
+            </button>
           </div>
         </div>
       </Swiper>
