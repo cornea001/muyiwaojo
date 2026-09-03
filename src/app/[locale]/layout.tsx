@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/og-image.avif',
         width: 1200,
         height: 630,
         alt: 'Vote Muyiwa Ojo — Ward 22 Riverside South–Findlay Creek',
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Vote Muyiwa Ojo — Ward 22',
     description: 'Practical Solutions. Better Everyday Life.',
-    images: ['/og-image.jpg'],
+    images: ['/og-image.avif'],
   },
 }
 export default async function RootLayout({
