@@ -1,5 +1,5 @@
 "use client";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import { Parallax, Navigation, Pagination, Autoplay } from "swiper/modules";
 import {
   ArrowDown,
@@ -16,6 +16,20 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/parallax";
+
+const SwiperNavButtons = () => {
+  const swiper = useSwiper();
+  return (
+    <div className="flex border-l border-white/10">
+      <button onClick={() => swiper.slidePrev()} className="w-14 lg:w-20 border-r border-white/10 flex items-center justify-center text-white/50 hover:text-white hover:bg-white/5 transition-colors">
+        &larr;
+      </button>
+      <button onClick={() => swiper.slideNext()} className="w-14 lg:w-20 flex items-center justify-center text-white/50 hover:text-white hover:bg-white/5 transition-colors">
+        &rarr;
+      </button>
+    </div>
+  );
+};
 
 export default function Hero() {
   const t = useTranslations('Hero');
@@ -36,6 +50,7 @@ export default function Hero() {
       desc: t('desc2'),
       bgImage: "/community-bg.avif",
       bgClass: "bg-bottom",
+      portraitImage: "/priorities-hero.avif",
     },
   ];
 
@@ -45,10 +60,7 @@ export default function Hero() {
         speed={1500}
         parallax={true}
         loop={true}
-        navigation={{
-          nextEl: ".swiper-button-next-custom",
-          prevEl: ".swiper-button-prev-custom",
-        }}
+        navigation={false}
         pagination={{
           el: ".swiper-pagination-custom",
           type: "fraction",
@@ -213,14 +225,7 @@ export default function Hero() {
             </a>
           </div>
           {/* Nav Arrows */}
-          <div className="flex border-l border-white/10">
-            <button className="swiper-button-prev-custom w-14 lg:w-20 border-r border-white/10 flex items-center justify-center text-white/50 hover:text-white hover:bg-white/5 transition-colors">
-              &larr;
-            </button>
-            <button className="swiper-button-next-custom w-14 lg:w-20 flex items-center justify-center text-white/50 hover:text-white hover:bg-white/5 transition-colors">
-              &rarr;
-            </button>
-          </div>
+          <SwiperNavButtons />
         </div>
       </Swiper>
 
