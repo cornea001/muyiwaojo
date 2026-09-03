@@ -105,9 +105,9 @@ export default function Hero() {
                   <span className="block text-gold font-display font-bold uppercase tracking-[0.2em] text-[0.65rem] sm:text-xs mb-3 md:mb-4">
                     {t('eyebrow')}
                   </span>
-                  <h2 className="font-display text-[clamp(2.5rem,8vw,4.5rem)] leading-[1.15] text-white font-bold capitalize whitespace-nowrap">
+                  <h2 className="font-display text-[clamp(2rem,8vw,4.5rem)] leading-[1.15] text-white font-bold capitalize tracking-tight">
                     {slide.titleTop}{" "}
-                    <span className="text-white whitespace-nowrap">
+                    <span className="text-white">
                       {slide.titleOutline}
                     </span>
                   </h2>
