@@ -27,27 +27,27 @@ export default function Mission() {
     {
       title: t('m1_title'),
       desc: t('m1_desc'),
-      icon: <Shield size={32} className="text-gold" />,
+      icon: <Shield size={24} className="text-gold" />,
     },
     {
       title: t('m2_title'),
       desc: t('m2_desc'),
-      icon: <Landmark size={32} className="text-gold" />,
+      icon: <Landmark size={24} className="text-gold" />,
     },
     {
       title: t('m3_title'),
       desc: t('m3_desc'),
-      icon: <GraduationCap size={32} className="text-gold" />,
+      icon: <GraduationCap size={24} className="text-gold" />,
     },
     {
       title: t('m4_title'),
       desc: t('m4_desc'),
-      icon: <HeartPulse size={32} className="text-gold" />,
+      icon: <HeartPulse size={24} className="text-gold" />,
     },
     {
       title: t('m5_title'),
       desc: t('m5_desc'),
-      icon: <UserCheck size={32} className="text-gold" />,
+      icon: <UserCheck size={24} className="text-gold" />,
     },
   ]
 
@@ -120,7 +120,7 @@ export default function Mission() {
           </motion.div>
 
           {/* Right Side: Mission Points */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:gap-10 h-fit my-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8 h-fit my-auto">
             {missions.map((item, idx) => (
               <motion.div
                 key={idx}
@@ -132,18 +132,18 @@ export default function Mission() {
                   duration: 0.7,
                   ease: [0.22, 1, 0.36, 1],
                 }}
-                className={`flex flex-col xl:flex-row items-start gap-4 xl:gap-6 group cursor-pointer ${idx === 4 ? 'sm:col-span-2 xl:col-span-2' : ''}`}
+                className={`flex flex-col xl:flex-row items-start gap-4 group cursor-pointer ${idx === 4 ? 'sm:col-span-2 xl:col-span-2' : ''}`}
               >
-                <div className="w-14 h-14 xl:w-16 xl:h-16 bg-cream dark:bg-navy-dark flex-shrink-0 flex items-center justify-center text-navy dark:text-cream group-hover:bg-navy group-hover:text-gold dark:group-hover:bg-navy-light transition-colors duration-500 border border-gray-100 dark:border-navy/20">
+                <div className="w-12 h-12 flex-shrink-0 flex items-center justify-center bg-cream dark:bg-navy-dark text-navy dark:text-cream group-hover:bg-navy group-hover:text-gold dark:group-hover:bg-navy-light transition-colors duration-500 border border-gray-100 dark:border-navy/20">
                   <div className="group-hover:scale-110 transition-transform duration-500">
                     {item.icon}
                   </div>
                 </div>
                 <div>
-                  <h4 className="text-xl font-display font-bold text-navy dark:text-white uppercase mb-2 group-hover:text-gold dark:group-hover:text-gold transition-colors duration-500">
+                  <h4 className="text-base md:text-lg font-display font-bold text-navy dark:text-white uppercase mb-1.5 group-hover:text-gold dark:group-hover:text-gold transition-colors duration-500">
                     {item.title}
                   </h4>
-                  <p className="text-navy/70 dark:text-cream/80 font-body leading-relaxed">
+                  <p className="text-navy/70 dark:text-cream/80 font-body text-sm leading-relaxed">
                     {item.desc}
                   </p>
                 </div>
