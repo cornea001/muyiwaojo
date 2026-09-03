@@ -120,7 +120,7 @@ export default function Mission() {
           </motion.div>
 
           {/* Right Side: Mission Points */}
-          <div className="flex flex-col gap-10 h-fit my-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:gap-10 h-fit my-auto">
             {missions.map((item, idx) => (
               <motion.div
                 key={idx}
@@ -132,9 +132,9 @@ export default function Mission() {
                   duration: 0.7,
                   ease: [0.22, 1, 0.36, 1],
                 }}
-                className="flex items-start gap-6 group cursor-pointer"
+                className={`flex flex-col xl:flex-row items-start gap-4 xl:gap-6 group cursor-pointer ${idx === 4 ? 'sm:col-span-2 xl:col-span-2' : ''}`}
               >
-                <div className="w-16 h-16 bg-cream dark:bg-navy-dark flex-shrink-0 flex items-center justify-center text-navy dark:text-cream group-hover:bg-navy group-hover:text-gold dark:group-hover:bg-navy-light transition-colors duration-500 border border-gray-100 dark:border-navy/20">
+                <div className="w-14 h-14 xl:w-16 xl:h-16 bg-cream dark:bg-navy-dark flex-shrink-0 flex items-center justify-center text-navy dark:text-cream group-hover:bg-navy group-hover:text-gold dark:group-hover:bg-navy-light transition-colors duration-500 border border-gray-100 dark:border-navy/20">
                   <div className="group-hover:scale-110 transition-transform duration-500">
                     {item.icon}
                   </div>
