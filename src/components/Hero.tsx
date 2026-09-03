@@ -163,10 +163,9 @@ export default function Hero() {
               </motion.div>
             </div>
 
-            {/* Portrait — in-flow on mobile, absolute on desktop */}
             {slide.portraitImage && (
               <div
-                className="relative md:absolute md:inset-y-0 md:right-0 md:translate-x-10 xl:translate-x-24 md:bottom-16 w-full md:w-auto mt-4 md:mt-0 h-72 sm:h-80 md:h-full z-10 pointer-events-none flex justify-center items-end"
+                className="relative md:absolute md:inset-y-0 md:right-0 md:w-[60%] lg:w-[55%] md:bottom-16 w-full mt-4 md:mt-0 h-72 sm:h-80 md:h-full z-10 pointer-events-none flex justify-end items-end"
                 data-swiper-parallax="20%"
               >
                 <motion.img
@@ -175,7 +174,7 @@ export default function Hero() {
                   transition={{ duration: 1, delay: 0.3, ease: [0.25, 1, 0.5, 1] }}
                   src={slide.portraitImage}
                   alt="Muyiwa Ojo"
-                  className="portrait-img w-full h-full md:w-auto md:h-full max-w-none max-h-full object-cover object-top md:object-contain md:object-right-bottom"
+                  className="portrait-img w-full h-full object-cover object-top md:object-cover md:object-[center_top]"
                 />
               </div>
             )}
