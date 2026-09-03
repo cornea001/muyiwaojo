@@ -101,7 +101,7 @@ export default function Mission() {
         </div>
 
         {/* Split Layout: Image & Mission Points */}
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-10 items-center mb-20">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-6 items-center mb-20">
           
           {/* Left Side: Image */}
           <motion.div
