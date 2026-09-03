@@ -95,7 +95,7 @@ export default function Priorities() {
           >
             <div className="absolute inset-0 bg-navy/10 group-hover:bg-transparent transition-colors duration-500 z-10" />
             <img 
-              src="/priorities-hero.avif" 
+              src="/donate-hero.avif" 
               alt="Community Priorities" 
               className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-1000"
             />

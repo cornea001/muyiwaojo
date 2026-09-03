@@ -48,9 +48,9 @@ export default function Hero() {
       titleTop: t('title2_top'),
       titleOutline: t('title2_bottom'),
       desc: t('desc2'),
-      bgImage: "/volunteer-hero.avif",
+      bgImage: "/priorities-hero.avif",
       bgClass: "bg-bottom",
-      portraitImage: "/priorities-hero.avif",
+      portraitImage: "/volunteer-hero.avif",
     },
   ];
 
