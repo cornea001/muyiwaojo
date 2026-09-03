@@ -28,16 +28,16 @@ export default function Hero() {
       desc: t('desc1'),
       bgImage: "/bg-rally.avif",
       bgClass: "bg-top",
-      portraitImage: "/portrait.avif",
+      portraitImage: "/portrait2.avif",
     },
-    /* {
+    {
       titleTop: t('title2_top'),
       titleOutline: t('title2_bottom'),
       desc: t('desc2'),
-      bgImage: "/bg-neighborhood.avif",
+      bgImage: "/community-bg.avif",
       bgClass: "bg-bottom",
-      portraitImage: "/portrait2.avif",
-    }, */
+      portraitImage: "/portrait3.avif",
+    },
   ];
 
   return (
@@ -45,7 +45,7 @@ export default function Hero() {
       <Swiper
         speed={1500}
         parallax={true}
-        loop={false}
+        loop={true}
         navigation={{
           nextEl: ".swiper-button-next-custom",
           prevEl: ".swiper-button-prev-custom",
