@@ -36,7 +36,7 @@ export default function Hero() {
       desc: t('desc2'),
       bgImage: "/community-bg.avif",
       bgClass: "bg-bottom",
-      portraitImage: "/portrait3.avif",
+      portraitImage: "/portrait2.avif",
     },
   ];
 
