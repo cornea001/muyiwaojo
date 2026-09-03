@@ -91,10 +91,6 @@ export default function AboutPage() {
             <div className="space-y-5 text-sm sm:text-[15px] text-gray-700 dark:text-cream/80 leading-relaxed mb-10 transition-colors duration-300">
               <p>{t('p1')}</p>
               <p>{t('p2')}</p>
-              <p>{t('p3')}</p>
-              <p>{t('p4')}</p>
-              <p>{t('p5')}</p>
-              <p>{t('p6')}</p>
             </div>
 
             {/* QUOTE */}

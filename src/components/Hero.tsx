@@ -42,6 +42,7 @@ export default function Hero() {
       desc: t('desc1'),
       bgImage: "/bg-rally.avif",
       bgClass: "bg-top",
+      portraitImage: "/portrait2.avif",
     },
     {
       titleTop: t('title2_top'),
@@ -49,6 +50,7 @@ export default function Hero() {
       desc: t('desc2'),
       bgImage: "/volunteer-hero.avif",
       bgClass: "bg-bottom",
+      portraitImage: "/priorities-hero.avif",
     },
   ];
 
