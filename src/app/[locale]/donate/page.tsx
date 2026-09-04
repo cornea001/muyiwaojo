@@ -191,6 +191,20 @@ export default function DonationPage() {
             {loading ? t("btn_loading") : `${t("btn_donate")} $${numericAmount || 0}`}
           </button>
 
+          {/* E-TRANSFER INFO */}
+          <div className="pt-6 border-t border-navy/10 dark:border-white/10 mt-6">
+            <h3 className="font-semibold text-navy dark:text-cream mb-2 transition-colors duration-300">
+              {t("etransfer_title")}
+            </h3>
+            <p className="text-sm text-navy/70 dark:text-cream/80 transition-colors duration-300">
+              {t("etransfer_desc1")}
+              <a href="mailto:info@muyiwaojo.ca" className="font-bold text-navy dark:text-white hover:text-gold dark:hover:text-gold transition-colors duration-300">
+                info@muyiwaojo.ca
+              </a>. 
+              {t("etransfer_desc2")}
+            </p>
+          </div>
+
         </div>
       ) : (
         <Elements
